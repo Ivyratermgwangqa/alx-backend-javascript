@@ -76,7 +76,7 @@ This project is licensed under the [MIT License](LICENSE), permitting use, modif
 
 ## Contact Information
 
-If you have questions or suggestions, feel free to open an issue in the repository  at [Ivyratermgwangqa@gmail.com](Lerato:Ivyratermgwangqa@gmail.com).
+If you have questions or suggestions, feel free to open an issue in the repository  at [Ivyratermgwangqa@gmail.com](Lerato:Ivyratermgwangqa@gmail.com)
 ```
 
 This template covers the essential sections for a README file, providing information on project structure, setup, running instructions, and contribution guidelines. Adapt this to suit your specific needs or project scope.
