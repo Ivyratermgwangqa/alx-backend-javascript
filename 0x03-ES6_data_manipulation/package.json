@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint .",
-    "full-test": "npm run lint && npm run test" // Run lint and tests
+    "full-test": "npm run lint && npm run test"
   },
   "dependencies": {},
   "devDependencies": {
@@ -18,7 +18,7 @@
     "jest": "^27.0.6"
   },
   "jest": {
-    "testEnvironment": "node" // Set the test environment to Node.js
+    "testEnvironment": "node"
   },
   "license": "MIT"
 }
