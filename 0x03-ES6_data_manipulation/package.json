@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Project with Babel, Jest, and ESLint",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "jest",
     "lint": "eslint .",
