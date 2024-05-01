@@ -8,8 +8,6 @@ module.exports = {
         },
         useBuiltIns: "usage",
         core-js: 3,
-        modules: false,
-        loose: true,
       },
     ],
   ],
