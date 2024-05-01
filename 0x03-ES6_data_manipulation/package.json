@@ -7,7 +7,7 @@
     "test": "jest",
     "lint": "eslint .",
     "full-test": "npm run lint && npm run test",
-    "dev": "node 0-get_list_students.js && node 1-get_list_student_ids.js && node 2-get_students_by_loc.js && node 3-get_ids_sum.js && node 4-update_grade_by_city.js && node 5-typed_arrays.js && node 6-set.js && node 7-has_array_values.js && node 8-clean_set.js && node 9-groceries_list.js && node 10-update_uniq_items.js && node 100-weak.js"
+    "dev": "node 0-main.js && node 1-main.js && node 2-main.js && node 3-main.js && node 4-main.js && node 5-main.js && node 6-main.js && node 7-main.js && node 8-main.js && node 9-main.js && node 10-main.js && node 100-main.js && node 0-get_list_students.js && node 1-get_list_student_ids.js && node 2-get_students_by_loc.js && node 3-get_ids_sum.js && node 4-update_grade_by_city.js && node 5-typed_arrays.js && node 6-set.js && node 7-has_array_values.js && node 8-clean_set.js && node 9-groceries_list.js && node 10-update_uniq_items.js && node 100-weak.js"
   },
   "devDependencies": {
     "@babel/cli": "^7.24.5",
