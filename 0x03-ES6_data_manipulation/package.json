@@ -7,7 +7,7 @@
     "test": "jest",
     "lint": "eslint .",
     "full-test": "npm run lint && npm run test",
-    "dev": "for file in *.main.js; do node $file; done" // Executes all main.js files
+    "dev": "for file in *.main.js; do node $file; done"
   },
   "dependencies": {},
   "devDependencies": {
