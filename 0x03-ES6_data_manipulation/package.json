@@ -4,15 +4,15 @@
   "description": "Project with Babel, Jest, and ESLint",
   "main": "index.js",
   "scripts": {
-  "test": "jest",
-  "lint": "eslint .",
-  "full-test": "npm run lint && npm run test",
-  "dev": "for file in *.main.js; do node $file; done"
-  }
+    "test": "jest",
+    "lint": "eslint .",
+    "full-test": "npm run lint && npm run test",
+    "dev": "for file in *.main.js; do node $file; done" // Executes all main.js files
+  },
   "dependencies": {},
   "devDependencies": {
-    "@babel/core": "^7.24.5",
-    "@babel/preset-env": "^7.24.5",
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
     "babel-jest": "^27.0.6",
     "eslint": "^7.32.0",
     "eslint-plugin-jest": "^24.7.0",
