@@ -1,12 +1,23 @@
-// Define an interface for the function
-interface printTeacherFunction {
-  (firstName: string, lastName: string): string;
-}
+/// <reference path="./crud.d.ts" />
 
-// Implement the printTeacher function
-const printTeacher: printTeacherFunction = (firstName, lastName) => {
-  return `${firstName.charAt(0)}. ${lastName}`;
+import { RowID, RowElement } from './interface';
+import * as CRUD from './crud';
+
+// Create a row object
+const row: RowElement = {
+  firstName: 'Guillaume',
+  lastName: 'Salva',
 };
 
-// Test the function
-console.log(printTeacher('John', 'Doe')); // Output: J. Doe
+// Insert a new row and get the new row ID
+const newRowID: RowID = CRUD.insertRow(row); // Expected output: Insert row {firstName: "Guillaume", lastName: "Salva"}
+
+// Create an updated row with age
+const updatedRow: RowElement = { firstName: 'Guillaume', lastName: 'Salva', age: 23 };
+
+// Update the row with the new ID
+CRUD.updateRow(newRowID, updatedRow); // Expected output: Update row {firstName: "Guillaume", lastName: "Salva", age: 23}
+
+// Delete the row by ID
+CRUD.deleteRow(newRowID); // Expected output: Delete row id <rowID>
+
