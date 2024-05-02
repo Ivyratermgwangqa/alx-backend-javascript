@@ -1,35 +1,29 @@
-// Define the constructor interface for StudentClass
-interface StudentClassConstructor {
-  firstName: string;
-  lastName: string;
-}
+import { Subjects } from './subjects';
 
-// Define the StudentClass interface
-interface StudentClass {
-  workOnHomework(): string;
-  displayName(): string;
-}
+// Create instances of the subject classes
+export const cpp = new Subjects.Cpp();
+export const java = new Subjects.Java();
+export const react = new Subjects.React();
 
-// Implement the StudentClass
-class Student implements StudentClass {
-  firstName: string;
-  lastName: string;
+// Create a common teacher with experienceTeachingC = 10
+const cTeacher: Subjects.Teacher = {
+  firstName: 'John',
+  lastName: 'Doe',
+  experienceTeachingC: 10,
+};
 
-  constructor({ firstName, lastName }: StudentClassConstructor) {
-    this.firstName = firstName;
-    this.lastName = lastName;
-  }
+// Test the different subject classes
+console.log('C++');
+cpp.setTeacher(cTeacher);
+console.log(cpp.getRequirements());
+console.log(cpp.getAvailableTeacher());
 
-  workOnHomework(): string {
-    return 'Currently working';
-  }
+console.log('Java');
+java.setTeacher(cTeacher);
+console.log(java.getRequirements());
+console.log(java.getAvailableTeacher());
 
-  displayName(): string {
-    return this.firstName;
-  }
-}
-
-// Test the Student class
-const student = new Student({ firstName: 'Alice', lastName: 'Johnson' });
-console.log(student.displayName()); // Output: Alice
-console.log(student.workOnHomework()); // Output: Currently working
+console.log('React');
+react.setTeacher(cTeacher);
+console.log(react.getRequirements());
+console.log(react.getAvailableTeacher());
