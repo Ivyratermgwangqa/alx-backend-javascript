@@ -1,3 +1,17 @@
+// Define the DirectorInterface
+interface DirectorInterface {
+  workFromHome(): string;
+  getCoffeeBreak(): string;
+  workDirectorTasks(): string;
+}
+
+// Define the TeacherInterface
+interface TeacherInterface {
+  workFromHome(): string;
+  getCoffeeBreak(): string;
+  workTeacherTasks(): string;
+}
+
 // Implement the Director class
 class Director implements DirectorInterface {
   workFromHome(): string {
