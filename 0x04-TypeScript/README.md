@@ -1,6 +1,10 @@
 # TypeScript Project: Task Overview
 This project covers various concepts in TypeScript, ranging from interfaces, classes, working with the DOM, to more advanced topics like namespaces, declaration merging, ambient namespaces, and nominal typing.
 
+
+### Full Project Structure
+
+```
 alx-backend-javascript
 ├── 0x04-TypeScript
 │   ├── task_0
@@ -54,6 +58,10 @@ alx-backend-javascript
 │   │   ├── tsconfig.json
 │   │   └── webpack.config.js
 └── README.md
+```
+
+
+With this set of commands, you should be able to create all the required directories and files for each task in the project. Once you have this structure, you can populate the files with the corresponding code implementations and test to ensure they work as expected. If you have any more questions or need further assistance with your TypeScript project, I'm here to help.
 
 
 ## Tasks Summary
