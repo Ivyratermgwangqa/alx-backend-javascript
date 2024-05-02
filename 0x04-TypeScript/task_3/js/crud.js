@@ -1,0 +1,14 @@
+// External CRUD operations
+export function insertRow(row) {
+  console.log('Insert row', row);
+  return Math.floor(Math.random() * 1000); // Generate random ID
+}
+
+export function deleteRow(rowId) {
+  console.log('Delete row id', rowId);
+}
+
+export function updateRow(rowId, row) {
+  console.log(`Update row ${rowId}`, row);
+  return rowId;
+}
