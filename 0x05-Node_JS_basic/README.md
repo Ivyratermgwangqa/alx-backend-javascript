@@ -187,7 +187,7 @@ Configuration file for ESLint, used for code linting.
 
 ## Author
 
-**Your Name**
+**Lerato Mgwangqa**
 
 ## License
 
