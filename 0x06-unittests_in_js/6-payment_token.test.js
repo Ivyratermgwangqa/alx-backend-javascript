@@ -1,6 +1,5 @@
 import { expect } from 'chai';
-const expect = chai.expect;
-const getPaymentTokenFromAPI = require('./6-payment_token');
+import getPaymentTokenFromAPI from './6-payment_token.js';
 
 describe('getPaymentTokenFromAPI', function() {
     it('should return a resolved promise with data when success is true', function(done) {
