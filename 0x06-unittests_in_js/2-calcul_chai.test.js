@@ -1,5 +1,5 @@
-import chai from 'chai';
-const { expect } = chai;
+import { expect } from 'chai';
+import { calculateNumber } from './2-calcul_chai.js';
 
 describe('calculateNumber', () => {
   describe('SUM', () => {
