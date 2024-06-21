@@ -1,5 +1,5 @@
 import assert from 'assert';
-import calculateNumber from './0-calcul.js';
+import { calculateNumber } from './0-calcul.js';
 
 describe('calculateNumber', () => {
   it('should return 4 when inputs are 1 and 3', () => {
