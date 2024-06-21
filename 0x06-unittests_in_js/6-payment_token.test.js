@@ -1,4 +1,4 @@
-const chai = require('chai');
+import { expect } from 'chai';
 const expect = chai.expect;
 const getPaymentTokenFromAPI = require('./6-payment_token');
 
