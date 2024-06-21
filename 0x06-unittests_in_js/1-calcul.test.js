@@ -1,5 +1,5 @@
 import assert from 'assert';
-import calculateNumber from './1-calcul.js';
+import { calculateNumber } from './1-calcul.js';
 
 describe('calculateNumber', () => {
   describe('SUM', () => {
