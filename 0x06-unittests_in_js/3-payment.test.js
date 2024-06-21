@@ -1,6 +1,7 @@
 const sinon = require('sinon');
 const Utils = require('./utils');
-const sendPaymentRequestToApi = require('./3-payment');
+import assert from 'assert';
+import { getPaymentTokenFromAPI } from './3-payment.js';
 
 describe('sendPaymentRequestToApi', () => {
   it('should call Utils.calculateNumber with SUM and arguments', () => {
